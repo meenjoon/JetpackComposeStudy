@@ -32,8 +32,8 @@ class RowStudy : ComponentActivity() {
 }
 
 /**
- * Row는 수평(가로)이기 때문에 Alignment는 항상 수직(위 아래)로 사용 된다. [ EX: 높이 정렬 ]
- * Row는 수평(가로)이기 때문에 Arrangement는 항상 수평(가로)로 사용된다. [ EX: 가운데 정렬 ]
+ * Row는 수평(가로)이기 때문에 Alignment[verticalAlignment]는 항상 수직(위 아래)로 사용 된다. [ EX: 높이 정렬 ]
+ * Row는 수평(가로)이기 때문에 Arrangement[horizontalArrangement]는 항상 수평(가로)로 사용된다. [ EX: 가운데 정렬 ]
  */
 
 @Composable

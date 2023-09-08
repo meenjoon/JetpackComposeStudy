@@ -16,7 +16,7 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="34">
         <activity
-            android:name=".slot.MainActivity"
+            android:name=".lazycolumn.LazyColumn"
             android:exported="true"
             android:theme="@style/Theme.JetpackComposeStudy">
             <intent-filter>

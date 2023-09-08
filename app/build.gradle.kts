@@ -47,6 +47,22 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+
+    kotlinOptions {
+        freeCompilerArgs += listOf(
+            "-Xopt-in=kotlin.ExperimentalUnsignedTypes",
+            "-Xopt-in=kotlinx.coroutines.ExperimentalCoroutinesApi",
+            "-Xopt-in=kotlinx.coroutines.InternalCoroutinesApi",
+            "-Xopt-in=androidx.compose.animation.ExperimentalAnimationApi",
+            "-Xopt-in=androidx.compose.runtime.ExperimentalComposeApi",
+            "-Xopt-in=androidx.compose.ui.ExperimentalComposeUiApi",
+            "-Xopt-in=androidx.compose.material3.ExperimentalMaterial3Api",
+            "-Xopt-in=coil.annotation.ExperimentalCoilApi",
+            "-Xopt-in=kotlinx.serialization.ExperimentalSerializationApi",
+            "-Xopt-in=com.google.accompanist.pager.ExperimentalPagerApi",
+            "-Xopt-in=com.google.accompanist.navigation.material.ExperimentalMaterialNavigationApi"
+        )
+    }
 }
 
 dependencies {

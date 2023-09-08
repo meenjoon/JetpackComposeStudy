@@ -16,7 +16,7 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="34">
         <activity
-            android:name=".card.Card"
+            android:name=".checkbox.CheckBox"
             android:exported="true"
             android:theme="@style/Theme.JetpackComposeStudy">
             <intent-filter>

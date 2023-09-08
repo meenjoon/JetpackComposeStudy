@@ -20,7 +20,7 @@ import com.mbj.composestudy.ui.theme.JetpackComposeStudyTheme
  * ==> 이것을 우리는 Slot API라고 부르기로 했다. 예를 들어 Column, Row, TopAppBar
  */
 
-class MainActivity : ComponentActivity() {
+class Slot : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {

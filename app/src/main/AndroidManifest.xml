@@ -16,7 +16,7 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="34">
         <activity
-            android:name=".architecture.viewmodel.ViewModel"
+            android:name=".architecture.livedata.LiveData"
             android:exported="true"
             android:theme="@style/Theme.JetpackComposeStudy">
             <intent-filter>

@@ -97,4 +97,7 @@ dependencies {
 
     //LiveData 라이브러리
     implementation("androidx.compose.runtime:runtime-livedata:1.5.1")
+
+    //navigation 라이브러리
+    implementation("androidx.navigation:navigation-compose:2.7.2")
 }

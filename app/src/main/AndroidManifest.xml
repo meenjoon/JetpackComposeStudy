@@ -16,7 +16,7 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="34">
         <activity
-            android:name=".lazycolumn.LazyColumn"
+            android:name=".todo.ToDo"
             android:exported="true"
             android:theme="@style/Theme.JetpackComposeStudy">
             <intent-filter>

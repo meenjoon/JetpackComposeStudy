@@ -119,4 +119,8 @@ dependencies {
 
     // viewModelScope
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1")
+
+    // Paging
+    implementation ("androidx.paging:paging-common-ktx:3.2.1")
+    implementation ("androidx.paging:paging-compose:3.2.1")
 }
